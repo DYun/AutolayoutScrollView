@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D666B6D219D05D8400EA6F70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D666B6D119D05D8400EA6F70 /* main.m */; };
+		D666B6D519D05D8400EA6F70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D666B6D419D05D8400EA6F70 /* AppDelegate.m */; };
+		D666B6D819D05D8400EA6F70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D666B6D719D05D8400EA6F70 /* ViewController.m */; };
+		D666B6DB19D05D8400EA6F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D666B6D919D05D8400EA6F70 /* Main.storyboard */; };
+		D666B6DD19D05D8400EA6F70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D666B6DC19D05D8400EA6F70 /* Images.xcassets */; };
+		D666B6E019D05D8400EA6F70 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D666B6DE19D05D8400EA6F70 /* LaunchScreen.xib */; };
+		D666B6EC19D05D8400EA6F70 /* ScrollViweAutoLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D666B6EB19D05D8400EA6F70 /* ScrollViweAutoLayoutTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D666B6E619D05D8400EA6F70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D666B6C419D05D8400EA6F70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D666B6CB19D05D8400EA6F70;
+			remoteInfo = ScrollViweAutoLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D666B6CC19D05D8400EA6F70 /* ScrollViweAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViweAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D666B6D019D05D8400EA6F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D666B6D119D05D8400EA6F70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D666B6D319D05D8400EA6F70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D666B6D419D05D8400EA6F70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D666B6D619D05D8400EA6F70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D666B6D719D05D8400EA6F70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D666B6DA19D05D8400EA6F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D666B6DC19D05D8400EA6F70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D666B6DF19D05D8400EA6F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D666B6E519D05D8400EA6F70 /* ScrollViweAutoLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViweAutoLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D666B6EA19D05D8400EA6F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D666B6EB19D05D8400EA6F70 /* ScrollViweAutoLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViweAutoLayoutTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D666B6C919D05D8400EA6F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D666B6E219D05D8400EA6F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D666B6C319D05D8400EA6F70 = {
+			isa = PBXGroup;
+			children = (
+				D666B6CE19D05D8400EA6F70 /* ScrollViweAutoLayout */,
+				D666B6E819D05D8400EA6F70 /* ScrollViweAutoLayoutTests */,
+				D666B6CD19D05D8400EA6F70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D666B6CD19D05D8400EA6F70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D666B6CC19D05D8400EA6F70 /* ScrollViweAutoLayout.app */,
+				D666B6E519D05D8400EA6F70 /* ScrollViweAutoLayoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D666B6CE19D05D8400EA6F70 /* ScrollViweAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D666B6D319D05D8400EA6F70 /* AppDelegate.h */,
+				D666B6D419D05D8400EA6F70 /* AppDelegate.m */,
+				D666B6D619D05D8400EA6F70 /* ViewController.h */,
+				D666B6D719D05D8400EA6F70 /* ViewController.m */,
+				D666B6D919D05D8400EA6F70 /* Main.storyboard */,
+				D666B6DC19D05D8400EA6F70 /* Images.xcassets */,
+				D666B6DE19D05D8400EA6F70 /* LaunchScreen.xib */,
+				D666B6CF19D05D8400EA6F70 /* Supporting Files */,
+			);
+			path = ScrollViweAutoLayout;
+			sourceTree = "<group>";
+		};
+		D666B6CF19D05D8400EA6F70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D666B6D019D05D8400EA6F70 /* Info.plist */,
+				D666B6D119D05D8400EA6F70 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D666B6E819D05D8400EA6F70 /* ScrollViweAutoLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				D666B6EB19D05D8400EA6F70 /* ScrollViweAutoLayoutTests.m */,
+				D666B6E919D05D8400EA6F70 /* Supporting Files */,
+			);
+			path = ScrollViweAutoLayoutTests;
+			sourceTree = "<group>";
+		};
+		D666B6E919D05D8400EA6F70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D666B6EA19D05D8400EA6F70 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D666B6CB19D05D8400EA6F70 /* ScrollViweAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D666B6EF19D05D8400EA6F70 /* Build configuration list for PBXNativeTarget "ScrollViweAutoLayout" */;
+			buildPhases = (
+				D666B6C819D05D8400EA6F70 /* Sources */,
+				D666B6C919D05D8400EA6F70 /* Frameworks */,
+				D666B6CA19D05D8400EA6F70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollViweAutoLayout;
+			productName = ScrollViweAutoLayout;
+			productReference = D666B6CC19D05D8400EA6F70 /* ScrollViweAutoLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D666B6E419D05D8400EA6F70 /* ScrollViweAutoLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D666B6F219D05D8400EA6F70 /* Build configuration list for PBXNativeTarget "ScrollViweAutoLayoutTests" */;
+			buildPhases = (
+				D666B6E119D05D8400EA6F70 /* Sources */,
+				D666B6E219D05D8400EA6F70 /* Frameworks */,
+				D666B6E319D05D8400EA6F70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D666B6E719D05D8400EA6F70 /* PBXTargetDependency */,
+			);
+			name = ScrollViweAutoLayoutTests;
+			productName = ScrollViweAutoLayoutTests;
+			productReference = D666B6E519D05D8400EA6F70 /* ScrollViweAutoLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D666B6C419D05D8400EA6F70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = dyun;
+				TargetAttributes = {
+					D666B6CB19D05D8400EA6F70 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					D666B6E419D05D8400EA6F70 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = D666B6CB19D05D8400EA6F70;
+					};
+				};
+			};
+			buildConfigurationList = D666B6C719D05D8400EA6F70 /* Build configuration list for PBXProject "ScrollViweAutoLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D666B6C319D05D8400EA6F70;
+			productRefGroup = D666B6CD19D05D8400EA6F70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D666B6CB19D05D8400EA6F70 /* ScrollViweAutoLayout */,
+				D666B6E419D05D8400EA6F70 /* ScrollViweAutoLayoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D666B6CA19D05D8400EA6F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D666B6DB19D05D8400EA6F70 /* Main.storyboard in Resources */,
+				D666B6E019D05D8400EA6F70 /* LaunchScreen.xib in Resources */,
+				D666B6DD19D05D8400EA6F70 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D666B6E319D05D8400EA6F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D666B6C819D05D8400EA6F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D666B6D819D05D8400EA6F70 /* ViewController.m in Sources */,
+				D666B6D519D05D8400EA6F70 /* AppDelegate.m in Sources */,
+				D666B6D219D05D8400EA6F70 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D666B6E119D05D8400EA6F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D666B6EC19D05D8400EA6F70 /* ScrollViweAutoLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D666B6E719D05D8400EA6F70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D666B6CB19D05D8400EA6F70 /* ScrollViweAutoLayout */;
+			targetProxy = D666B6E619D05D8400EA6F70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D666B6D919D05D8400EA6F70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D666B6DA19D05D8400EA6F70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D666B6DE19D05D8400EA6F70 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D666B6DF19D05D8400EA6F70 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D666B6ED19D05D8400EA6F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D666B6EE19D05D8400EA6F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D666B6F019D05D8400EA6F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScrollViweAutoLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D666B6F119D05D8400EA6F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScrollViweAutoLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D666B6F319D05D8400EA6F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScrollViweAutoLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollViweAutoLayout.app/ScrollViweAutoLayout";
+			};
+			name = Debug;
+		};
+		D666B6F419D05D8400EA6F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScrollViweAutoLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollViweAutoLayout.app/ScrollViweAutoLayout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D666B6C719D05D8400EA6F70 /* Build configuration list for PBXProject "ScrollViweAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D666B6ED19D05D8400EA6F70 /* Debug */,
+				D666B6EE19D05D8400EA6F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D666B6EF19D05D8400EA6F70 /* Build configuration list for PBXNativeTarget "ScrollViweAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D666B6F019D05D8400EA6F70 /* Debug */,
+				D666B6F119D05D8400EA6F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D666B6F219D05D8400EA6F70 /* Build configuration list for PBXNativeTarget "ScrollViweAutoLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D666B6F319D05D8400EA6F70 /* Debug */,
+				D666B6F419D05D8400EA6F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D666B6C419D05D8400EA6F70 /* Project object */;
+}
